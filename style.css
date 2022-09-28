@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 img {
@@ -197,4 +197,123 @@ h2 {
 
 .landing__right--container{
     width: 60%;
+}
+
+/* FEATURES */
+
+.features__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__container {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.features__sub-title {
+    font-size: 16px;
+    color: #6415ff;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+.features__top-para {
+    max-width: 600px;
+    text-align: center;
+    margin: 16px 0 0 0;
+    font-size: 16px;
+    color: #7c8ba1;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.features__top-title {
+font-size: 48px;
+font-weight: 900;
+letter-spacing: 0.025em;
+}
+
+.features__box--container {
+    display: flex;
+    width: calc(100% / 3);
+    padding: 32px 16px;
+}
+
+.icon__wrapper {
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.features__icon{
+    height: 24px;
+    width: 24px;
+}
+
+.features__right-description--container{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 0 16px;
+}
+
+.features__title {
+    font-size: 24px;
+    color: #243e63;
+    font-weight: 700;
+}
+
+.features__para{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #7c8ba1;
+    font-weight: 500;
+    line-height: 2;
+}
+
+/* QUALITY */
+
+.quality__container {
+    display: flex;
+}
+
+.quality__left--container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+}
+
+.quality__sub-title{
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 00.1em;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.quality__para {
+    color: #7c8ba1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+    max-width: 500px;
+    margin: 16px 0 40px 0;
+}
+
+.quality__button {
+    margin: 0;
+}
+
+
+.quality__right--container{
+    width: 50%;
+}
+
+.quality__image {
+    border: 1px lightgray solid;
 }
