@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* REUSABLE CSS CLASSES */
+
+body {
+    padding: 32px;
+}
+
+.container {
+    padding: 100px 0;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+/* NAVIGATION */
+
+.nav__logo--container {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 12px 0 0;
+}
+
+.nav__title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #243e63;
+    transition: 300ms ease;
+}
+
+.nav__title:hover {
+    color: #6415ff;
+}
+
+.nav__links {
+    display: flex;
+}
+
+.nav__link {
+    margin-left: 48px;
+    color: #243e63;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+}
+
+.sub-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6415ff;
+}
+
+.nav__link:hover {
+    color: #6415ff;
+    text-decoration: underline;
+}
+
+.nav__login {
+    margin-left: 86px;
+}
+
+.purple__button {
+    color: white;
+    background-color: #6415ff;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 32px;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 300ms ease;
+}
+
+.purple__button:hover {
+    background-color:  #5011cc; ;
+}
+
+/* LANDING PAGE  */
+
+.landing__container {
+    display: flex;
+}
+
+.landing__left--container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing__title {
+    font-size: 48px;
+    color: #1a202c;
+}
+
+.landing__para {
+    color: #243e63;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 32px 0;
+}
+
+.input__container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input__email {
+    border: 2px lightgray solid ;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #243e63;
+    width: 100%;
+    padding: 20px 100px 20px 32px;
+    transition: 300ms ease;
+    width: 100%;
+}
+
+.input__email:hover {
+    border: 2px #7c8ba1 solid;
+}
+
+.input__email:focus {
+    border: #6415ff solid 2px;
+    outline: none !important;
+}
+
+.landing__button {
+    position: absolute;
+    right: 18px;
+}
+
+.landing__customer--container {
+    color: #a0aec0;
+    opacity: .6;
+    margin: 80px 0 0 0;
+    font-size: 12px;
+}
+
+.landing__customer--title {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.landing__customer--image {
+    margin-top: 16px;
+    padding-right: 96px;
+}
+
+.landing__right--container{
+    width: 60%;
+}
